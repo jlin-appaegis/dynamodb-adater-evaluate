@@ -1,0 +1,23 @@
+{
+  "name": "dynamodb-adapter-evaluate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.162.0",
+    "@aws/dynamodb-auto-marshaller": "^0.7.1",
+    "@aws/dynamodb-data-mapper": "^0.7.3",
+    "@aws/dynamodb-expressions": "^0.7.3",
+    "aws-sdk": "^2.1207.0",
+    "dynamoose": "^3.0.2",
+    "jest": "^29.0.1",
+    "jest-dynalite": "^3.6.1",
+    "uuid": "^8.3.2"
+  }
+}
